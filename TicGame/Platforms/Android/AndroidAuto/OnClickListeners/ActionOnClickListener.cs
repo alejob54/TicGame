@@ -1,12 +1,5 @@
-﻿using Android.Content;
-using Android.Service.Autofill;
-using AndroidX.Car.App;
+﻿using AndroidX.Car.App;
 using AndroidX.Car.App.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TicGame.Platforms.Android.AndroidAuto.OnClickListeners
 {
