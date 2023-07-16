@@ -17,9 +17,13 @@ namespace TicGame.Platforms.Android.AndroidAuto.OnClickListeners
         private readonly AndroidAutoScreen _screenToNavigate;
         public NavigationOnClickListener(CarContext context, ScreenManager screenManager, AndroidAutoScreen screenToNavigate)
         {
-            context = _carContext;
-            screenManager = _screenManager;
-            screenToNavigate = _screenToNavigate;
+            //context = _carContext;
+            _carContext = context;
+            _screenManager = screenManager;
+            _screenToNavigate = screenToNavigate;
+
+            //screenManager = _screenManager;
+            //screenToNavigate = _screenToNavigate;
 
         }
 
