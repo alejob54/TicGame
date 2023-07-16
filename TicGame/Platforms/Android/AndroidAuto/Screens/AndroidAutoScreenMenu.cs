@@ -18,6 +18,7 @@ namespace TicGame.Platforms.Android.AndroidAuto.Screens
         {
 
         }
+
         public override ITemplate OnGetTemplate()
         {
             var dotnetBotIconCompat = IconCompat.CreateWithResource(CarContext, Resource.Drawable.dotnet_bot);

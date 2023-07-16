@@ -16,6 +16,7 @@ namespace TicGame.Platforms.Android.AndroidAuto.Screens
     {
         public AndroidAutoScreenPaneTemplate(CarContext carContext) : base(carContext)
         {
+
         }
 
         public override ITemplate OnGetTemplate()
